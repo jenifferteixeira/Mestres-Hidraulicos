@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+}
+
+.mae {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+    color: white;
+    font-size: 20px;
+}
+
+.p1 {
+    text-align: center;
+}
+
+.esquerda {
+    width: 40%;
+}
+
+.logo {
+    height: 200px;
+}
+
+button {
+    background-color: #c51111;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+
+}
+
+.dupla {
+    height: 500px;
+
+}
+
+.video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+
+video {
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    opacity: 0.7;
+}
+
+.wpp img {
+    height: 60px;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.inicio img {
+    height: 60px;
+}
+
+.inicio a {
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.inicio a:hover {
+    color: yellow;
+    font-size: 24px;
+    transition: 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: yellow;
+    color: blue;
+    font-weight: bolder;
+    transition: 0.5s ease-in-out;
+}
+
+.wpp img:hover {
+    height: 80px;
+    transition: 0.5s ease-in-out;
+}
+
+.formulario {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: -300px;
+    padding: 20px;
+    border-radius: 5px;
+    gap: 15px;
+    transition: left 1s ease-in-out;
+
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: green;
+
+}
+
+textarea {
+    width: 270px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left: 5px;
+    outline-color: green;
+}
+
+.botaoform {
+    margin-left: 35px;
+}
+
+.mascform {
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    transition: visibility 1s ease-in-out;
+}
+
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    gap: 50px;
+    justify-content: center;
+}
+
+li {
+    border-radius: 10px;
+}
+
+ul img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+ul h4 {
+    font-size: 18px;
+    width: 300px;
+    color: white;
+}
+
+h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1100px) {
+    p {
+        display: none
+    }
+
+    .mae {
+        flex-direction: column;
+        padding: 10px;
+        justify-content: flex-start;
+    }
+
+    .esquerda {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .dupla {
+        width: 80vw;
+        height: auto;
+    }
+
+    .inicio img {
+        display: none;
+    }
+
+    .inicio {
+        margin: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    ul {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 200px 200px;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    ul h4 {
+        font-size: 16px;
+        width: 200px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 950px) {
+    p {
+        display: none
+    }
+
+    .mae {
+        flex-direction: column;
+        padding: 10px;
+        justify-content: flex-start;
+    }
+
+    .esquerda {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .dupla {
+        width: 80vw;
+        height: auto;
+    }
+
+    .inicio img {
+        display: none;
+    }
+
+    .inicio {
+        margin: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+
+    ul {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 150px 150px;
+        gap: 20px;
+        justify-content: center;
+    }
+
+    ul h4 {
+        font-size: 16px;
+        width: 150px;
+    }
+
+    h2 {
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+    }
+}

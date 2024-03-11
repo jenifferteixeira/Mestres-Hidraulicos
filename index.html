@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style.css">
+    <title>Mario Bros</title>
+</head>
+
+<body>
+    <div class="inicio">
+        <img src="./img/icon.png">
+        <a href="./index.html">Home</a>
+        <a href="./servicos.html">Nossos Serviços</a>
+        <a onclick="clica()">Fale Conosco</a>
+    </div>
+
+
+    <div class="mae">
+        <div class="esquerda">
+            <img class="logo" src="./img/logo.png">
+            <p class="p1">Canalizadores Mario & Luigi - Arrasando nos Consertos Hidráulicos com Muito Estilo! 🔧</p>
+            <p> Você já se viu em apuros diante de um dilema hidráulico? Com vazamentos súbitos, tubulações obstruídas
+                ou
+                torneiras que não cessam seu choro líquido? Acalme-se, estamos aqui para guiá-lo! Conheça os mestres
+                hidráulicos mais renomados do Reino dos Cogumelos - Mario e Luigi!</p>
+
+            <button onclick="clica()"> ENTRE EM CONTATO</button>
+        </div>
+
+        <div>
+            <img class="dupla" src="./img/mario.png">
+        </div>
+
+    </div>
+
+    <div>
+        <video class="video" src="./img/video.mp4" autoplay muted loop></video>
+    </div>
+    <div class="mascara"></div>
+
+    <a class="wpp" href="https://wa.me/5551985644784">
+        <img src="./img/whatsapp.png">
+    </a>
+
+    <div onclick="desclica()" class="mascform"></div> 
+
+    <form class="formulario" 
+            action="https://formcarry.com/s/0402sTcVs1v"
+            method="POST"
+            enctype="multipart/form-data">
+        <input placeholder="Seu nome" type="text" name="Nome">
+        <input placeholder="Seu telefone" type="tel" name="Contato">
+        <textarea placeholder="Digite seu problema aqui..." name="Problema"></textarea>
+        <button class="botaoform" type="submit"> Solicitar Orçamento</button>
+    </form>
+
+
+</body>
+<script src="./script.js"></script>
+</html>
