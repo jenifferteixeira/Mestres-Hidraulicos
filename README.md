@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="300" src="https://github.com/jenifferteixeira/natty-or-not/blob/main/assets-git/banner.png">
+    <img width="200" src="https://github.com/jenifferteixeira/natty-or-not/blob/main/assets-git/banner.png">
 </p>
 
 
@@ -26,6 +26,9 @@
 
 Projeto com o objetivo de desenvolver uma página demonstrativa de serviços hidráulicos.
 
+<p>
+    <img width="500" src="https://github.com/jenifferteixeira/Mestres-Hidraulicos/blob/main/img/tela.JPG">
+</p>
   
 
 ## 👨‍💻 Expert
